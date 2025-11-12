@@ -13,6 +13,7 @@ BST_left = {}
 BST_right = {}
 
 #for the multiple peaks question use a max heap
+#remember BST is not left justified
 
 nodes_in_level = {}
 
