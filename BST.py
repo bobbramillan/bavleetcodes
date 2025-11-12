@@ -5,7 +5,7 @@ class Node:
         self.left = None
         self.right = None
 """
-#typically i would use the above esp in C but for illustration purposes im doing the below
+#typically i would use the above struct esp in C but for illustration purposes im doing the below
 
 BST_index = {}
 BST_parent = {}
