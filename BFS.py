@@ -14,7 +14,7 @@ start = 'h'
 
 # the print \n is only for aesthetics
 
-def traverse_graph(G, start):
+def bfs(G, start):
     # Initialize data structures
     queue = []          
     dist = {}           
@@ -44,5 +44,5 @@ def traverse_graph(G, start):
     print("\nDistance:", dist)
     print("\nPredecessor:", pred)
 
-traverse_graph(G, start)
+bfs(G, start)
 print("\n")
