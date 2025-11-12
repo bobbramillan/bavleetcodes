@@ -1,4 +1,4 @@
-# Directed Graph, outgoing arrows are values of key(aka node)
+# Directed Graph, outgoing arrows (neighbor nodes) are values of key(aka node)
 G = {
     'a': ['c'],
     'b': ['a', 'c', 'b'],
