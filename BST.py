@@ -14,6 +14,7 @@ BST_index = {}
 def insert(val, root):
     curr = root
 
+    #yea i coulda not used while and made it recursive but ig this is more memory efficient
     while True:
         left, right = BST[curr]  # always 2 elements
 
