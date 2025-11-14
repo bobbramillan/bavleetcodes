@@ -26,7 +26,7 @@ def bfs(G, start):
     pred[start] = None
     queue.append(start)
 
-    # Step 2: start traversal while queue is not empty
+    # Step 2: do traversal while queue is not empty
     while queue:
         print("Queue:", queue)
         x = queue.pop(0)           # the # values in here depend on the key and if they havent been seen yet
