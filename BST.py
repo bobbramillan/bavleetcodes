@@ -55,6 +55,6 @@ def build_bst_from_array(arr):
 queue = [1, 3, 2, 5, 4, 7, 6]
 BST, BST_index = build_bst_from_array(queue)
 
-print("\nBST =", BST)
+print("\nBST =", BST) #represented in a parent: [left child, right child]
 print("\nBST_index =", BST_index)
 print("\n")
